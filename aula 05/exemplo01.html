@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meu primeiro html</title>
+</head>
+
+<body>
+    <nav id="topo">
+        <a href="#formatacao">formatacao</a> | <a href="#listas">listas</a> | <a href="#midias">midias</a> | <a href="#tabelas">tabelas</a>
+    </nav>
+    <section id="formatacao">
+        <header>
+            <h1>
+                formatação em html
+            </h1>
+        </header>
+
+        <h1>titulo 1</h1>
+        <p>
+            Lorem,&nbsp; ipsum dolor sit amet consectetur adipisicing elit. Quibusdam obcaecati distinctio vitae beatae
+            perferendis laudantium! Consectetur, doloremque. Dolorum, error cum a vel consectetur tempore, illo atque,
+            voluptatibus dolor cumque adipisci!
+        </p>
+        <p>
+            segundo parágrafo.
+        </p>
+        <p><b>
+                texto em negrito.
+            </b>
+        </p>
+        <p>
+            <strong>texto em negrito</strong>
+        </p>
+        <p><i>
+                texto em italico.
+            </i>
+        </p>
+        <p>
+            <strike>
+                texto tachado.
+            </strike>
+        </p>
+        <p>
+            <u>
+                texto sublinhado.
+            </u>
+        </p>
+        <p>
+            <ins>
+                texto inserido.
+            </ins>
+        </p>
+        <p>
+            <em>
+                texto italico.
+            </em>
+        </p>
+        <p><mark>
+                texto marcado.
+            </mark>
+        </p>
+    </section>
+    <section id="listas">
+        <header>
+            <h2>
+                listas ordenadas e não ordenadas
+            </h2>
+        </header>
+        <section id="lista ordenada">
+            <header>listas ordenadas
+            </header>
+            <!--type 1 - numeros 1 a n-->
+            <!--type A - letras de A a z-->
+            <!--type I - algarismos romanos-->
+            <ol type="I">
+                <li>primeiro iten</li>
+                <li>segundo iten</li>
+            </ol>
+            <h3>
+                iniciando a lista com um valor especifico...
+            </h3>
+            <ol start="5" type="1">
+                <li>item 5</li>
+                <li>item 6</li>
+            </ol>
+        </section>
+        <section id="lista nao ordenada">
+            <header>
+                <h4>
+                    lista nao ordenada
+                </h4>
+            </header>
+            <ul>
+                <li>
+                    primeiro iten
+                </li>
+                <li>
+                    segundo iten
+                </li>
+                <li>
+                    terceiro item
+                    <ul>
+                        <li>dentro do item 1</li>
+                    <li>dentro do item 2</li>
+                </ul> 
+                </li>
+            </ul>
+            <a href="#formatacao">ir para o topo </a>
+        </section>
+    </section>
+    <section id="midias">
+        <header>
+            <h4>
+                imagens
+            </h4>
+        </header>
+        <figure>
+            <img src="data:image/png;base64,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" alt="logotipo do senai">
+            <figcaption>imagem do senai - fonte: site do senai</figcaption>
+        </figure>
+        <section id="videos">
+            <header>
+                <h4>
+                    videos
+                </h4>
+            </header>
+            <video controls>
+                <source src="https://github.com/richard-brosler-senai/java-tools/raw/refs/heads/master/apoios/Java%20Foundations/Midias/video.mp4">
+            </video>
+        </section>
+        <section id="audios">
+            <header>
+                <h4>
+                    audios
+                </h4>
+            </header>
+            <audio controls>
+                <source src="https://github.com/richard-brosler-senai/java-tools/raw/refs/heads/master/apoios/Java%20Foundations/Midias/MelhorAmigo.mp3">
+            </audio>
+        </section>
+    </section>
+    <section id="tabelas">
+        <header>
+            <h4>
+                tabelas
+            </h4>
+        </header>
+        <table border="1">
+            <thead>
+                <tr> <!--inicio de uma linha-->
+                 <th>sequência</th>
+                 <th>descrição</th>
+                 <th>valor</th>
+                </tr>
+            </thead>
+            <tbody> <!--corpo da tabela-->
+                <tr>
+                    <td>1</td>
+                    <td>lapiseira</td>
+                    <td>R$ 15,00</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>caneta</td>
+                    <td>R$ 10,00</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">total</td>
+                    <td>
+                        R$ 25,00
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+    <section id="formularios">
+        <header><h4>formularios</h4></header>
+        <form action="#" method="post">
+            <label for="nome">nome</label>
+            <input type="text" name="nome"id=nome> 
+
+            <label for="telefone">telefone</label>
+            <input type="tel" name="telefone id=telefone">
+
+            <input type="submit" value="enviar">
+        </form>
+    </section>
+</body>
+</html>
