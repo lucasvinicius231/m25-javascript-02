@@ -1,0 +1,22 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "descricao": "teste",
+      "saldo": "2",
+      "preco": "-0.01"
+    },
+    {
+      "id": 2,
+      "descricao": "teste",
+      "saldo": "5",
+      "preco": "0.06"
+    },
+    {
+      "id": 3,
+      "descricao": "jsdjdjjdjd",
+      "saldo": "5",
+      "preco": "0.04"
+    }
+  ]
+}

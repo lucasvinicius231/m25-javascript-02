@@ -14,5 +14,4 @@ form.addEventListener('submit',function(e){
     console.log("evento form!");
     console.log(validar_envio());
     if (!validar_envio()) e.preventdefault();
-}
-)
+})
